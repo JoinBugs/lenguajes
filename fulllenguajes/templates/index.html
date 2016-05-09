@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href='{% static "css/ext/reset.css" %}'>
+	<link rel="stylesheet" href='{% static "css/index.css" %}'>
+	<script src='{% static "js/ext/jquery.js" %}'></script>
+	<script src='{% static "js/ext/underscore.js" %}'></script>
+	<script src='{% static "js/ext/underscore.string.js" %}'></script>
+	<script src='{% static "js/ext/util.js" %}'></script>
+	<script src='{% static "js/ext/grid.js" %}'></script>
+	<script src='{% static "js/Lenguaje.js" %}'></script>
+	<script src='{% static "js/index.js" %}'></script>
+	<title>Demo home</title>
+</head>
+<body>
+	<header>
+		<nav id="nav-requests">
+			<h1>Lenguajes De Programacion</h1>
+			<h1 id="type-request">LAST Request : NONE</h1>
+		</nav>
+	</header>
+	<section id="workArea">
+		<button id="btnAddLenguaje">Add Lenguaje</button> 
+		<input type="text" id="txt-get-id" placeholder="ID"/>
+	</section>
+</body>
+</html>
